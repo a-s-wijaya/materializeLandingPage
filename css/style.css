@@ -1,0 +1,27 @@
+body {
+    background-color: white;
+}
+
+header {
+    background: url(https://images.unsplash.com/photo-1528296991138-4a718efd2906?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: 100%;
+    background-position: center;
+    height: 1000px;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        min-height: 500px;
+        font-weight: bold;
+    }
+}
+
+.section {
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+.tabs .indicator {
+    background-color:black;
+}
+
